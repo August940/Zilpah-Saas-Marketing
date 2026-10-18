@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self'; font-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'">
+<title>Company Brief – Zilpah</title>
+<meta name="description" content="Tell Zilpah the essentials about your company so the first call is useful.">
+<meta name="theme-color" content="#3a4232">
+<link rel="canonical" href="https://zilpah.io/brief.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Zilpah">
+<meta property="og:title" content="Company Brief – Zilpah">
+<meta property="og:description" content="Tell Zilpah the essentials about your company so the first call is useful.">
+<meta property="og:url" content="https://zilpah.io/brief.html">
+<meta property="og:image" content="https://zilpah.io/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Zilpah: outbound systems for growth-stage B2B SaaS.">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preload" href="fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="card-nav.css">
+<style>
+/* Inter, self-hosted (OFL) so no visitor data goes to a third party */
+@font-face { font-family: Inter; font-style: normal; font-weight: 400 600; font-display: swap; src: url(fonts/inter-latin.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: Inter; font-style: normal; font-weight: 400 600; font-display: swap; src: url(fonts/inter-latin-ext.woff2) format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+/* Tokens match index.html */
+:root {
+  color-scheme: dark;
+  --primary: #f6f0dc; --primary-active: #e4dcc3; --on-primary: #0a0a0a;
+  --ink: #f6f0dc; --body: #d6d0ba; --body-strong: #ece6d1; --muted: #bcb6a1;
+  --hairline: #5f694f; --canvas: #3a4232; --surface-soft: #424a39; --surface-card: #4a5340;
+  --card-ink: #0a0a0a; --peach: #ffb084; --pink: #ff4d8b; --ochre: #e8b94a; --teal: #1a3a3a; --lavender: #b8a4ed; --error: #ff8a80;
+  --r-md: 12px; --r-lg: 16px; --r-xl: 24px;
+  --font: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+* { box-sizing: border-box; }
+html { scroll-padding-top: 96px; }
+body { margin: 0; background: var(--canvas); color: var(--body); font: 400 16px/1.55 var(--font); touch-action: manipulation; }
+h1, h2 { color: var(--ink); margin: 0; font-weight: 500; letter-spacing: -0.04em; text-wrap: balance; }
+p { margin: 0; text-wrap: pretty; }
+a { color: var(--ink); }
+:focus-visible { outline: 3px solid var(--pink); outline-offset: 3px; }
+.wrap { max-width: 760px; margin: 0 auto; padding: 0 24px; }
+.btn { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 12px 20px; border-radius: var(--r-md); font: 600 14px/1 var(--font); border: 1px solid transparent; cursor: pointer; text-decoration: none; transition: background-color .15s, border-color .15s; }
+.btn-primary { background: var(--primary); color: var(--on-primary); }
+.btn-primary:hover { background: var(--primary-active); }
+.btn-secondary { background: transparent; color: var(--ink); border-color: var(--hairline); }
+.btn-secondary:hover { border-color: var(--ink); }
+
+header.intro { padding: 72px 0 40px; text-align: center; }
+.label { font-size: 12px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; color: var(--muted); margin-bottom: 16px; }
+h1 { font-size: clamp(36px, 6vw, 56px); line-height: 1.05; margin-bottom: 16px; }
+.lead { font-size: 18px; color: var(--body-strong); }
+
+fieldset { border: 0; margin: 0 0 24px; padding: 32px; background: var(--surface-soft); border-radius: var(--r-xl); }
+legend { float: left; width: 100%; padding: 0; margin-bottom: 24px; color: var(--ink); font-size: 20px; font-weight: 600; letter-spacing: -0.3px; }
+legend span { display: block; font-size: 13px; font-weight: 600; color: var(--muted); letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 4px; }
+.grid { clear: both; display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.full { grid-column: 1 / -1; }
+.field label, .group-label { display: block; color: var(--ink); font-size: 14px; font-weight: 600; margin-bottom: 8px; }
+.opt { color: var(--muted); font-weight: 400; }
+.help { font-size: 13px; color: var(--muted); margin-top: 6px; }
+input[type=text], input[type=email], input[type=url], select, textarea {
+  width: 100%; min-height: 44px; padding: 12px 16px; border-radius: var(--r-md);
+  border: 1px solid var(--hairline); background: var(--canvas); color: var(--ink); font: 400 16px/1.4 var(--font);
+}
+textarea { min-height: 104px; resize: vertical; }
+select { appearance: none; background-image: linear-gradient(45deg, transparent 50%, var(--muted) 50%), linear-gradient(135deg, var(--muted) 50%, transparent 50%); background-position: calc(100% - 20px) 50%, calc(100% - 15px) 50%; background-size: 5px 5px; background-repeat: no-repeat; padding-right: 40px; }
+input::placeholder, textarea::placeholder { color: #8f8a77; }
+input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 2px solid var(--ink); outline-offset: 0; border-color: var(--ink); }
+.error { display: none; color: var(--error); font-size: 13px; margin-top: 6px; }
+.field.invalid input, .field.invalid select, .field.invalid textarea { border-color: var(--error); }
+.field.invalid .error { display: block; }
+.checks { display: flex; flex-wrap: wrap; gap: 8px; }
+.checks label { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 16px; border: 1px solid var(--hairline); border-radius: 9999px; cursor: pointer; color: var(--ink); font-size: 14px; }
+.checks label:has(input:checked) { background: var(--surface-card); border-color: var(--ink); }
+.checks input, .consent input { accent-color: var(--ochre); width: 18px; height: 18px; margin: 0; }
+.field .consent { display: flex; gap: 12px; align-items: flex-start; cursor: pointer; color: var(--body-strong); font-size: 14px; }
+.consent input { margin-top: 2px; flex: none; }
+.noscript { margin-bottom: 24px; text-align: center; padding: 16px 20px; border: 1px solid var(--hairline); border-radius: var(--r-md); color: var(--body-strong); }
+.actions { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 16px; text-align: center; margin: 8px 0 96px; }
+.actions p { font-size: 14px; color: var(--muted); }
+
+#done { display: none; padding: 32px; text-align: center; background: var(--surface-soft); border-radius: var(--r-xl); margin-bottom: 96px; }
+#done h2 { font-size: 32px; margin-bottom: 12px; }
+#done textarea { margin: 20px 0 16px; text-align: left; min-height: 220px; font-size: 14px; }
+#done .row { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; }
+.sent #brief { display: none; }
+.sent #done { display: block; }
+
+@media (max-width: 640px) {
+  .wrap { padding: 0 16px; }
+  .grid { grid-template-columns: 1fr; }
+  fieldset { padding: 24px 20px; }
+}
+@media (prefers-reduced-motion: reduce) { .btn { transition: none; } }
+</style>
+</head>
+<body>
+<div class="site-nav">
+<div class="card-nav" id="card-nav">
+  <nav class="card-nav__panel" aria-label="Main">
+    <div class="card-nav__bar">
+      <button class="card-nav__menu" type="button" aria-expanded="false" aria-controls="card-nav-content">
+        <span class="card-nav__burger" aria-hidden="true"><span class="card-nav__line card-nav__line--top"></span><span class="card-nav__line card-nav__line--bottom"></span></span>
+        <span class="card-nav__menu-label"><span class="card-nav__word card-nav__word--open">Menu</span><span class="card-nav__word card-nav__word--close" aria-hidden="true">Close</span></span>
+      </button>
+      <a class="card-nav__logo" href="index.html" translate="no"><span class="card-nav__badge"><img src="logo-z.png" alt="" width="25" height="32"></span>Zilpah</a>
+      <a class="card-nav__cta" href="brief.html">Start Your Brief</a>
+    </div>
+    <div class="card-nav__content" id="card-nav-content" aria-hidden="true" inert>
+      <div class="card-nav__cards">
+        <div class="card-nav__card" data-tinted style="background: var(--lavender); color: var(--card-ink)">
+          <div class="card-nav__card-head"><span class="card-nav__label">Services</span><p class="card-nav__description">One outbound system, built around your team.</p></div>
+          <ul class="card-nav__links"><li><a class="card-nav__link" href="index.html#what"><span class="card-nav__arrow" aria-hidden="true"><svg class="card-nav__arrow-icon card-nav__arrow-icon--out" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg><svg class="card-nav__arrow-icon card-nav__arrow-icon--in" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg></span>What We Build</a></li><li><a class="card-nav__link" href="index.html#pilot"><span class="card-nav__arrow" aria-hidden="true"><svg class="card-nav__arrow-icon card-nav__arrow-icon--out" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg><svg class="card-nav__arrow-icon card-nav__arrow-icon--in" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg></span>How a Pilot Works</a></li></ul>
+        </div>
+        <div class="card-nav__card" data-tinted style="background: var(--ochre); color: var(--card-ink)">
+          <div class="card-nav__card-head"><span class="card-nav__label">About</span><p class="card-nav__description">Who we are and how we work.</p></div>
+          <ul class="card-nav__links"><li><a class="card-nav__link" href="index.html#about"><span class="card-nav__arrow" aria-hidden="true"><svg class="card-nav__arrow-icon card-nav__arrow-icon--out" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg><svg class="card-nav__arrow-icon card-nav__arrow-icon--in" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg></span>About Zilpah</a></li><li><a class="card-nav__link" href="index.html#pricing"><span class="card-nav__arrow" aria-hidden="true"><svg class="card-nav__arrow-icon card-nav__arrow-icon--out" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg><svg class="card-nav__arrow-icon card-nav__arrow-icon--in" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg></span>Pricing</a></li></ul>
+        </div>
+        <div class="card-nav__card" data-tinted style="background: var(--peach); color: var(--card-ink)">
+          <div class="card-nav__card-head"><span class="card-nav__label">Contact</span><p class="card-nav__description">Start with a short company brief.</p></div>
+          <ul class="card-nav__links"><li><a class="card-nav__link" href="brief.html"><span class="card-nav__arrow" aria-hidden="true"><svg class="card-nav__arrow-icon card-nav__arrow-icon--out" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg><svg class="card-nav__arrow-icon card-nav__arrow-icon--in" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg></span>Company Brief</a></li><li><a class="card-nav__link" href="index.html#faq"><span class="card-nav__arrow" aria-hidden="true"><svg class="card-nav__arrow-icon card-nav__arrow-icon--out" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg><svg class="card-nav__arrow-icon card-nav__arrow-icon--in" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg></span>FAQ</a></li><li><a class="card-nav__link" href="mailto:hello@zilpah.io"><span class="card-nav__arrow" aria-hidden="true"><svg class="card-nav__arrow-icon card-nav__arrow-icon--out" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg><svg class="card-nav__arrow-icon card-nav__arrow-icon--in" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg></span>Email Us</a></li></ul>
+        </div>
+      </div>
+      <div class="card-nav__wide"><a class="card-nav__cta card-nav__cta--wide" href="brief.html">Start Your Company Brief</a></div>
+    </div>
+    <span class="card-nav__rim" aria-hidden="true"></span>
+  </nav>
+</div>
+</div>
+
+<main class="wrap">
+  <header class="intro">
+    <p class="label">Company brief · About 5 minutes</p>
+    <h1>Tell us about your company.</h1>
+    <p class="lead">The essentials help us prepare, so the first call is about your pipeline, not about filling in the basics. Fields marked optional can be skipped.</p>
+  </header>
+
+  <noscript><p class="noscript">Sending the brief needs JavaScript, which is turned off in your browser. You can email the same details to <a href="mailto:hello@zilpah.io">hello@zilpah.io</a> instead.</p></noscript>
+  <form id="brief" method="post" novalidate>
+    <fieldset>
+      <legend><span>1 of 4</span>You and your company</legend>
+      <div class="grid">
+        <div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" placeholder="Anna Jensen…" required><p class="error">Enter your name.</p></div>
+        <div class="field"><label for="role">Your role</label><input id="role" name="role" type="text" autocomplete="organization-title" placeholder="Founder, Head of Sales…" required><p class="error">Enter your role.</p></div>
+        <div class="field"><label for="email">Work email</label><input id="email" name="email" type="email" autocomplete="email" spellcheck="false" placeholder="anna@company.com…" required><p class="error">Enter a valid work email, like anna@company.com.</p></div>
+        <div class="field"><label for="company">Company name</label><input id="company" name="company" type="text" autocomplete="organization" placeholder="Acme ApS…" required><p class="error">Enter your company name.</p></div>
+        <div class="field full"><label for="website">Website</label><input id="website" name="website" type="url" autocomplete="url" spellcheck="false" placeholder="https://acme.dk…" required><p class="error">Enter the full address, starting with https://.</p></div>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend><span>2 of 4</span>Product and customers</legend>
+      <div class="grid">
+        <div class="field full"><label for="product">What do you sell, and to whom?</label><textarea id="product" name="product" placeholder="We sell scheduling software to mid-sized logistics companies…" required></textarea><p class="error">Describe your product in a sentence or two.</p></div>
+        <div class="field full"><label for="icp">Who is your best customer?</label><textarea id="icp" name="icp" placeholder="Industry, company size, and the job titles that usually buy…" required></textarea><p class="help">Think of the customers you would most like more of.</p><p class="error">Describe your best customer.</p></div>
+        <div class="field"><label for="customers">Paying customers today</label>
+          <select id="customers" name="customers" required><option value="">Choose…</option><option>1–10</option><option>11–50</option><option>51–200</option><option>200+</option></select><p class="error">Choose a range.</p></div>
+        <div class="field"><label for="acv">Average yearly contract value</label>
+          <select id="acv" name="acv" required><option value="">Choose…</option><option>Under €5k</option><option>€5k–€20k</option><option>€20k–€50k</option><option>€50k+</option></select><p class="error">Choose a range.</p></div>
+        <div class="field full"><span class="group-label" id="markets-label">Markets you sell into <span class="opt">(optional)</span></span>
+          <div class="checks" role="group" aria-labelledby="markets-label">
+            <label><input type="checkbox" name="markets" value="Denmark">Denmark</label>
+            <label><input type="checkbox" name="markets" value="Nordics">Rest of Nordics</label>
+            <label><input type="checkbox" name="markets" value="DACH">DACH</label>
+            <label><input type="checkbox" name="markets" value="Rest of EU/EEA">Rest of EU/EEA</label>
+            <label><input type="checkbox" name="markets" value="UK">UK</label>
+            <label><input type="checkbox" name="markets" value="US">US</label>
+          </div></div>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend><span>3 of 4</span>Sales today</legend>
+      <div class="grid">
+        <div class="field"><label for="outbound">Who does outbound today?</label>
+          <select id="outbound" name="outbound" required><option value="">Choose…</option><option>No one yet</option><option>Founders</option><option>In-house SDRs or AEs</option><option>An agency or freelancer</option><option>A mix</option></select><p class="error">Choose who does outbound today.</p></div>
+        <div class="field"><label for="crm">CRM</label>
+          <input type="text" id="crm" name="crm" placeholder="The CRM you use, or None" required><p class="error">Name your CRM, or write None.</p></div>
+        <div class="field full"><label for="challenge">What is the biggest problem with outbound right now?</label><textarea id="challenge" name="challenge" placeholder="We get replies, but few turn into qualified meetings…" required></textarea><p class="error">Describe the main problem in a sentence or two.</p></div>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend><span>4 of 4</span>Goals</legend>
+      <div class="grid">
+        <div class="field full"><label for="goal">What would a good result look like in 3 months?</label><textarea id="goal" name="goal" placeholder="8 qualified meetings a month with logistics companies in Denmark…" required></textarea><p class="error">Describe what success would look like.</p></div>
+        <div class="field full"><label for="notes">Anything else we should know? <span class="opt">(optional)</span></label><textarea id="notes" name="notes" placeholder="Past experiments, constraints, timing…"></textarea></div>
+        <div class="field full"><label class="consent"><input type="checkbox" name="consent" required><span>I agree that Zilpah may use this information to prepare for and follow up on our conversation.</span></label><p class="error">Please confirm so we can use your answers.</p></div>
+      </div>
+    </fieldset>
+
+    <div class="actions">
+      <button class="btn btn-primary" type="submit">Send My Brief</button>
+      <p>Opens your email app with the brief ready to send to hello@zilpah.io.</p>
+    </div>
+  </form>
+
+  <section id="done" aria-live="polite">
+    <h2 tabindex="-1">Almost done.</h2>
+    <p>Your email app should have opened with the brief. Press send there to share it. If nothing opened, copy the brief below and email it to <a href="mailto:hello@zilpah.io">hello@zilpah.io</a>.</p>
+    <label class="group-label" for="summary" style="margin-top:20px">Your brief</label>
+    <textarea id="summary" readonly></textarea>
+    <div class="row">
+      <button class="btn btn-primary" type="button" id="copy">Copy Brief</button>
+      <button class="btn btn-secondary" type="button" id="edit">Edit Answers</button>
+    </div>
+  </section>
+</main>
+
+<script src="brief.js"></script>
+<script src="card-nav.js"></script>
+</body>
+</html>
