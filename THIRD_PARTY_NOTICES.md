@@ -6,6 +6,10 @@ These notices are required by the licences of code and fonts used on the site. K
 
 `zilpah-site/fonts/inter-*.woff2` is licensed under the SIL Open Font License 1.1. The full licence is in `zilpah-site/fonts/OFL.txt`.
 
+## Three.js
+
+`logo-3d/vendor/three.module.min.js` is Three.js r170, licensed under the MIT License. The full licence is in `logo-3d/vendor/three-LICENSE`.
+
 ## React Bits components
 
 The navigation (`card-nav.js`, `card-nav.css`), the particle cursor (`swarm-cursor.js`), and the scroll-expand and flip-card effects in `index.html` are vanilla ports of components from React Bits (https://reactbits.dev). They are used as part of this website under the licence below, which does not allow selling, sublicensing or redistributing the components themselves.
