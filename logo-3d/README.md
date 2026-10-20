@@ -4,8 +4,8 @@ The Zilpah "Z" as a glossy black 3D object on a transparent background. The lett
 
 | File | Use |
 |---|---|
-| `zilpah-z-loop.webp` | Animated WebP with transparency (720px, 2.7 MB). Works as a plain `<img>` in every current browser, Safari included. Easiest for the site. |
-| `zilpah-z-loop.webm` | VP9 video with alpha (720px, 0.8 MB). Smallest; transparent in Chrome, Edge and Firefox, but Safari shows it on black. |
+| `zilpah-z-loop.webp` | Animated WebP with transparency (720px, 4.6 MB). Works as a plain `<img>` in every current browser, Safari included. Easiest for the site. |
+| `zilpah-z-loop.webm` | VP9 video with alpha (720px, 1.4 MB). Smallest; transparent in Chrome, Edge and Firefox, but Safari shows it on black. |
 | `zilpah-z.js` + `vendor/` | Live WebGL version that renders at any size and resolution. Needs `vendor/three.module.min.js` (Three.js r170, MIT, 690 KB / ~170 KB gzipped). |
 | `index.html` | Demo page for the live version. |
 
